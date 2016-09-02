@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules/
+
+# Webstorm projektfile
+.idea/
+
+# OSX folder options
+.DS_Store
