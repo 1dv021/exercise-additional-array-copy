@@ -1,0 +1,58 @@
+{
+ "name": "exercise-additional-array-copy",
+   "version": "1.1.0",
+  "main": "app.js",
+  "homepage": "http://coursepress.lnu.se/kurs/grundlaggande-programmering/",
+  "contributors": [
+    {
+      "name": "John Häggerud",
+      "email": "john.haggerud@lnu.se"
+    },
+    {
+      "name": "Johan Leitet",
+      "email": "johan.leitet@lnu.se"
+    },
+    {
+      "name": "Jacob Lindehoff",
+      "email": "jacob.lindehoff@lnu.se"
+    },
+    {
+      "name": "Mats Loock",
+      "email": "mats.loock@lnu.se"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1dv021/exercise-additional-array-copy.git"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "snazzy": "^7.0.0",
+    "standard": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "standard | snazzy && mocha --recursive ./test"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  }
+}
