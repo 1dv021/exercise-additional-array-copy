@@ -1,9 +1,13 @@
 # Additionell kopia av array
 
 - A-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/additionell-kopia-av-array/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/a-niva/additionell-kopia-av-array)
+- Lösningsförslag(https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/additional-array-copy)
 
-> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+> __VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbook.io/1dv021/guider/att-komma-igang-med-en-ovningsuppgift) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `my-array.js` och komplettera funktionen `immutablePushNumber`, som ska returnera en kopia av en array där ett tal lagts till. Funktionen ska vara en så kallad "_pure function_", d.v.s. vara helt utan sidoeffekter.
 
@@ -31,7 +35,3 @@ Funktioner, metoder, etc. som _kan_ komma till användning beroende hur du välj
 - [Array.push](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 - [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-
-## Lösningsförslag
-
-- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/additional-array-copy](https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/additional-array-copy)

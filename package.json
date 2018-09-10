@@ -32,16 +32,19 @@
   "dependencies": {},
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.3.0",
-    "snazzy": "^7.0.0",
-    "standard": "*"
+    "mocha": "^5.2.0",
+    "snazzy": "^8.0.0",
+    "standard": "^12.0.1"
   },
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "all":  "npm run lint | npm run test",
+    "lint": "standard | snazzy",
+    "lint:fix": "standard --fix",
     "start": "node app.js",
-    "test": "standard | snazzy && mocha --recursive ./test"
+    "test": "mocha --recursive ./test"
   },
   "standard": {
     "globals": [
