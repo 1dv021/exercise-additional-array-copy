@@ -36,8 +36,8 @@ describe('Test error handling', () => {
 describe('Test that the source array is untouched.', () => {
   it('Must NOT return the same Array object the source parameter refers to.' +
     '(don\'t forget to make a copy of the source array).', done => {
-    let arr = [1, 2, 3]
-    let res = ma.immutablePushNumber(arr, 4)
+    const arr = [1, 2, 3]
+    const res = ma.immutablePushNumber(arr, 4)
     expect(arr).to.not.eql(res)
     done()
   })
@@ -45,22 +45,22 @@ describe('Test that the source array is untouched.', () => {
 
 describe('Test that the new array contains the provided number', () => {
   it('Must return a new copy of the source with the the additional number at the end.', done => {
-    let arr = [1, 2, 3]
-    let res = ma.immutablePushNumber(arr, 4)
+    const arr = [1, 2, 3]
+    const res = ma.immutablePushNumber(arr, 4)
     expect(res).to.eql([1, 2, 3, 4])
     done()
   })
 
   it('Must return a new copy of the source, an array, with the the additional number at the end.', done => {
-    let arr = [1]
-    let res = ma.immutablePushNumber(arr, 4)
+    const arr = [1]
+    const res = ma.immutablePushNumber(arr, 4)
     expect(res).to.eql([1, 4])
     done()
   })
 
   it('Must return a new copy of the source, an array, with the the additional number at the end.', done => {
-    let arr = []
-    let res = ma.immutablePushNumber(arr, 4)
+    const arr = []
+    const res = ma.immutablePushNumber(arr, 4)
     expect(res).to.eql([4])
     done()
   })

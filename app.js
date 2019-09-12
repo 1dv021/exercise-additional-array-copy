@@ -9,8 +9,8 @@
 
 const ma = require('./src/my-array.js')
 
-let arr = [1, 2, 3]
-let newArr = ma.immutablePushNumber(arr, 4)
+const arr = [1, 2, 3]
+const newArr = ma.immutablePushNumber(arr, 4)
 
 console.log(arr)
 console.log(newArr)
